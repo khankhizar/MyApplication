@@ -86,6 +86,7 @@ public class UserActivity extends AppCompatActivity implements Observer, Connect
     private void initDataBinding() {
         userActivityBinding = DataBindingUtil.setContentView(this, R.layout.activity_users);
         userViewModel = new UserViewModel(this);
+       // userViewModel= ViewModelProvider.of(this).get(UserViewModel.class);
         userActivityBinding.setUserViewModel(userViewModel);
     }
 

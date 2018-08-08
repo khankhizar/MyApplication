@@ -5,6 +5,7 @@ import android.databinding.BaseObservable;
 import android.databinding.BindingAdapter;
 import android.example.com.myapplication.R;
 import android.example.com.myapplication.model.Row;
+import android.example.com.myapplication.network.ApiService;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
