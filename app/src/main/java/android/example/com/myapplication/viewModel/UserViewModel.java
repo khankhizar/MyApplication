@@ -1,7 +1,6 @@
 package android.example.com.myapplication.viewModel;
 
 
-import android.arch.lifecycle.ViewModel;
 import android.content.Context;
 import android.databinding.ObservableField;
 import android.databinding.ObservableInt;
@@ -24,7 +23,6 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 
-import static android.example.com.myapplication.utils.Contants.RANDOM_USER_URL;
 
 public class UserViewModel extends Observable {
     public ObservableInt progressBar;

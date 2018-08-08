@@ -40,7 +40,6 @@ public class UserActivity extends AppCompatActivity implements Observer, Connect
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         checkConnection();
-       // userViewModel = ViewModelProviders.of(this).get(UserViewModel.class);
         initDataBinding();
         setSupportActionBar(userActivityBinding.toolbar);
         getSupportActionBar().setTitle("About Canada");
